@@ -5,5 +5,5 @@ RUN git pull
 RUN npm install
 COPY ./server.key /app
 COPY ./server.crt /app
-EXPOSE 8500 8501
+EXPOSE 8700 8701
 CMD ["node", "webreport-api-https"]
